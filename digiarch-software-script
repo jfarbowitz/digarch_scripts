@@ -70,6 +70,7 @@ brew install sleuthkit
 brew install rbenv
 brew install jenv
 brew install pyenv
+Brew install pass
 
 
 ## Install GUI apps
