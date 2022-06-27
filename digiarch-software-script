@@ -43,8 +43,8 @@ brew install trash
 brew install p7zip
 brew install rsync
 brew install gnu-tar
-# brew install awscli
-# brew install --cask fuse
+# brew install awscli ## not needed
+# brew install --cask fuse 
 # brew install ntfs-3g ## disabled by homebrew
 brew install clamav
 ### image audio video
@@ -62,7 +62,7 @@ brew install qcli
 brew install bulk_extractor
 brew install siegfried
 brew install droid
-brew install md5deep
+# brew install md5deep ## I think this installed as part of sleuthkit
 brew install bagit
 brew install disktype
 brew install sleuthkit
@@ -76,12 +76,12 @@ Brew install pass
 ## Install GUI apps
 
 ### desktop utilities
-# brew install --cask the-unarchiver
-brew install --cask google-chrome
+brew install --cask the-unarchiver
+# brew install --cask google-chrome ## handled by self-service
 brew install --cask firefox
-# brew install --cask slack
-# brew install --cask microsoft-remote-desktop
-# brew install --cask microsoft-teams
+# brew install --cask slack ## handled by app store
+# brew install --cask microsoft-remote-desktop ## handled by self-service
+# brew install --cask microsoft-teams ## handled by self-service
 brew install --cask zoom
 ### media
 brew install --cask vlc
@@ -109,9 +109,9 @@ brew install --cask qlimagesize
 brew install --cask stretchly
 
 ## Install Mac App Store software
-echo "\n🫖🫖🫖 Sign-in to App Store manually before using mas 🫖🫖🫖\n"
-brew install mas
-mas install 937984704 # amphetamine
+# echo "\n🫖🫖🫖 Sign-in to App Store manually before using mas 🫖🫖🫖\n"
+# brew install mas
+# mas install 937984704 # amphetamine - App store command line not needed
 
 
 # Update profile
