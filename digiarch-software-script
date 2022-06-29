@@ -76,7 +76,7 @@ Brew install pass
 ## Install GUI apps
 
 ### desktop utilities
-brew install --cask the-unarchiver
+# brew install --cask the-unarchiver # redundant with Keka
 # brew install --cask google-chrome ## handled by self-service
 brew install --cask firefox
 # brew install --cask slack ## handled by app store
